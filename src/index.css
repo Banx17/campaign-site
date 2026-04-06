@@ -146,7 +146,8 @@ footer nav a:hover{color:var(--gold)}
   .hero-btns{justify-content:center}
   .about{grid-template-columns:1fr;gap:2rem}
   .why-layout{grid-template-columns:1fr}
-  .why-imgs{display:none}
+  .why-imgs{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem}
+.why-imgs img{height:160px}
   .cards{grid-template-columns:1fr 1fr}
   .test-grid{grid-template-columns:1fr}
   .hero-btns{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;margin-top:1.5rem}
