@@ -30,7 +30,7 @@ function WhyMe() {
           </div>
         </div>
         <div className="why-imgs">
-          <img src="/why1.png" alt="Azeez in action" />
+          <img src="/why1.jpg" alt="Azeez in action" />
           <img src="/why2.jpg" alt="Azeez with students" />
         </div>
       </div>
