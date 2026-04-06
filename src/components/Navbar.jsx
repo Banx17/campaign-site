@@ -1,17 +1,26 @@
+import { useState } from 'react'
+
 function Navbar() {
+  const [open, setOpen] = useState(false)
+
   return (
     <nav className="navbar">
       <div className="nav-left">
         <img src="/logo.png" alt="OOUMSA Logo" className="nav-logo-img" />
       </div>
-      <ul className="nav-links">
-        <li><a href="#about">The Candidate</a></li>
-        <li><a href="#why">Why Me</a></li>
-        <li><a href="#vision">Visionary</a></li>
-        <li><a href="#manifesto">Manifesto</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+      <ul className={`nav-links ${open ? 'nav-open' : ''}`}>
+        <li><a href="#about" onClick={() => setOpen(false)}>The Candidate</a></li>
+        <li><a href="#why" onClick={() => setOpen(false)}>Why Me</a></li>
+        <li><a href="#vision" onClick={() => setOpen(false)}>Visionary</a></li>
+        <li><a href="#manifesto" onClick={() => setOpen(false)}>Manifesto</a></li>
+        <li><a href="#testimonials" onClick={() => setOpen(false)}>Testimonials</a></li>
       </ul>
-      <button className="nav-cta">Join Movement</button>
+      <div className="nav-right">
+        <button className="nav-cta">Join Movement</button>
+        <button className="hamburger" onClick={() => setOpen(!open)}>
+          {open ? '✕' : '☰'}
+        </button>
+      </div>
     </nav>
   )
 }

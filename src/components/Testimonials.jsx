@@ -3,31 +3,40 @@ function Testimonials() {
     <section className="testimonials" id="testimonials">
       <div className="test-header">
         <div className="section-tag">Voice of the Community</div>
-        <h2 className="section-title">What People Are Saying</h2>
+        <h2 className="section-title">Voice of the Community</h2>
       </div>
       <div className="test-grid">
         <div className="test-card">
           <div className="stars">★★★★★</div>
-          <blockquote>"Adebayo has a unique ability to listen and act. He negotiated for a 24-hour library extension during exams."</blockquote>
+          <blockquote>"Azeez is diligent, committed to the growth of this association, and someone who will always show up, not for the applause, but simply because that is who he is. When he expressed his intention to run for the Presidency, I was genuinely thrilled."</blockquote>
           <div className="test-author">
-            <div className="test-avatar">CE</div>
-            <div className="test-info"><strong>Chiamaka E.</strong><span>Final Year Medical Student</span></div>
+            <div className="test-avatar">AA</div>
+            <div className="test-info">
+              <strong>Dr. Adebanwo Adetola</strong>
+              <span>40th OOUMSA General Secretary</span>
+            </div>
           </div>
         </div>
         <div className="test-card">
           <div className="stars">★★★★★</div>
-          <blockquote>"He is the most organized leader I've ever worked with. His vision is exactly what we need to modernize our community."</blockquote>
+          <blockquote>"Tuffman is diligent, receptive to correction and he genuinely made my tenure as President a smooth one. He was always present, never let you down, and consistently proffered solutions to problems rather than simply identifying them."</blockquote>
           <div className="test-author">
-            <div className="test-avatar">DK</div>
-            <div className="test-info"><strong>Dr. Kunle</strong><span>Mentor & Clinical Lead</span></div>
+            <div className="test-avatar">OS</div>
+            <div className="test-info">
+              <strong>Dr. Ogunlade Samuel</strong>
+              <span>40th OOUMSA President</span>
+            </div>
           </div>
         </div>
         <div className="test-card">
           <div className="stars">★★★★★</div>
-          <blockquote>"He makes every student feel that their contribution matters, regardless of their background."</blockquote>
+          <blockquote>"Tuffman is committed to service, consistently contributes meaningfully, and that year, he and his team went on to organise the biggest pad up drive in ASF within NiMSA SW."</blockquote>
           <div className="test-author">
-            <div className="test-avatar">SJ</div>
-            <div className="test-info"><strong>Samuel J.</strong><span>100 Level Representative</span></div>
+            <div className="test-avatar">OB</div>
+            <div className="test-info">
+              <strong>Dr. Osagie Blessing</strong>
+              <span>Director, Auwwal Shanono Foundation</span>
+            </div>
           </div>
         </div>
       </div>
